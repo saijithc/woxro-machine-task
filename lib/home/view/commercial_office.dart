@@ -21,8 +21,7 @@ class CommercialOffice extends StatelessWidget {
             ],
           ),
         ),
-        SizedBox(
-          height: h * 0.25,
+        Expanded(
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
             itemCount: 4,

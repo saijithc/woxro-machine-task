@@ -39,7 +39,7 @@ class HomeScreen extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(height: 10),
-                  SizedBox(height: h * 0.13, width: w, child: const LandCard()),
+                  SizedBox(height: 100, width: w, child: const LandCard()),
                   SizedBox(
                       height: h * 0.3,
                       width: w,
